@@ -5,5 +5,5 @@ project(CppDeepDive LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 1. Smart Pointers Executable
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
+add_executable(references src/memory/02_references.cpp)
