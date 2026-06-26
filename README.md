@@ -1,2 +1,2 @@
 # cpp-deepdive
-Learning and applying modern c++ concepcts, memory management, algorithms, etc..
+Learning and applying modern c++ concepts, memory management, algorithms, etc..
