@@ -7,3 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
 add_executable(references src/memory/02_references.cpp)
+add_executable(unique_ptr src/memory/03_unique_ptr.cpp)
