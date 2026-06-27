@@ -5,6 +5,10 @@ project(CppDeepDive LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Memory related
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
 add_executable(references src/memory/02_references.cpp)
 add_executable(unique_ptr src/memory/03_unique_ptr.cpp)
+
+# Algorithms
+add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
