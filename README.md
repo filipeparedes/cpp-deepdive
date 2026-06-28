@@ -24,7 +24,9 @@ cpp-deepdive/
 │   ├── memory/         # Memory Management
 │   │   ├── 01_raw_pointers.cpp
 │   │   ├── 02_references.cpp
-│   │   └── 03_unique_ptr.cpp
+│   │   ├── 03_unique_ptr.cpp
+│   │   ├── 04_shared_ptr.cpp
+│   │   └── (...)
 │   │
 │   └── algorithms/     # Time & Space Optimized Algorithms
 │       └── 01_two_pointers.cpp

@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
 add_executable(references src/memory/02_references.cpp)
 add_executable(unique_ptr src/memory/03_unique_ptr.cpp)
+add_executable(shared_ptr src/memory/04_shared_ptr.cpp)
 
 # Algorithms
 add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
