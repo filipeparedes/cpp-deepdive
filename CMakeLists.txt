@@ -14,3 +14,6 @@ add_executable(weak_ptr src/memory/05_weak_ptr.cpp)
 
 # Algorithms
 add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
+
+# Multitasking
+add_executable(fork src/multitasking/01_fork.cpp)
