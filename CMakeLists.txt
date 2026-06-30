@@ -17,3 +17,4 @@ add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
 
 # Multitasking
 add_executable(fork src/multitasking/01_fork.cpp)
+add_executable(threads src/multitasking/02_threads.cpp)
