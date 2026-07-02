@@ -9,6 +9,7 @@ A personal repository dedicated to learning and experimenting with modern C++ co
 * Memory Ownership: Raw pointers, References and Smart Pointers
 * Move Semantics: Transferring ownership safely with std::move
 * Algorithmic Patterns: Two Pointers technique for O(n) time complexity optimizations.
+* Multitasking: Concurrency and Parallelism
 
 ---
 ## What's Inside
@@ -34,7 +35,8 @@ cpp-deepdive/
 │   ├── multitasking/         # Concurrency, Parallelism
 │   │   ├── 01_fork.cpp
 │   │   ├── 02_threads.cpp
-│   │   └── 03_mutex.cpp
+│   │   ├── 03_mutex.cpp
+│   │   └── (...)
 
 ````
 
