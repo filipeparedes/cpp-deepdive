@@ -33,7 +33,8 @@ cpp-deepdive/
 │   │
 │   ├── multitasking/         # Concurrency, Parallelism
 │   │   ├── 01_fork.cpp
-│   │   └── 02_threads.cpp
+│   │   ├── 02_threads.cpp
+│   │   └── 03_mutex.cpp
 
 ````
 
