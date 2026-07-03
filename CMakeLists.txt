@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(CppDeepDive LANGUAGES CXX)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Force C++20 standard (essential for modern C++)
 set(CMAKE_CXX_STANDARD 23)
@@ -20,3 +21,7 @@ add_executable(fork src/multitasking/01_fork.cpp)
 add_executable(threads src/multitasking/02_threads.cpp)
 add_executable(mutex src/multitasking/03_mutex.cpp)
 add_executable(atomic src/multitasking/04_atomic.cpp)
+add_executable(parallelism src/multitasking/05_parallelism.cpp)
+
+find_package(TBB REQUIRED)
+target_link_libraries(parallelism PRIVATE TBB::tbb)
