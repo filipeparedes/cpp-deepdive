@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
+set(CMAKE_C_COMPILER /opt/homebrew/bin/gcc-14)
+set(CMAKE_CXX_COMPILER /opt/homebrew/bin/g++-14)
 project(CppDeepDive LANGUAGES CXX)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
@@ -6,15 +8,19 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+
+# Algorithms
+add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
+
+# Functional
+add_executable(templates src/functional/01_templates.cpp)
+
 # Memory related
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
 add_executable(references src/memory/02_references.cpp)
 add_executable(unique_ptr src/memory/03_unique_ptr.cpp)
 add_executable(shared_ptr src/memory/04_shared_ptr.cpp)
 add_executable(weak_ptr src/memory/05_weak_ptr.cpp)
-
-# Algorithms
-add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
 
 # Multitasking
 add_executable(fork src/multitasking/01_fork.cpp)
