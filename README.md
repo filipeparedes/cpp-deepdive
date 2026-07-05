@@ -23,7 +23,8 @@ cpp-deepdive/
 ├── CMakeLists.txt
 ├── src/
 │   ├── algorithms/     # Time & Space Optimized Algorithms
-│   │   └── 01_two_pointers.cpp
+│   │   ├── 01_two_pointers.cpp
+│   │   └── 02_binary_search.cpp
 │   │
 │   ├── functional/     # Functional Concepts
 │   │   └── 01_templates.cpp
