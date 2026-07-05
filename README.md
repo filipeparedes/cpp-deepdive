@@ -8,8 +8,9 @@ A personal repository dedicated to learning and experimenting with modern C++ co
 
 * Memory Ownership: Raw pointers, References and Smart Pointers
 * Move Semantics: Transferring ownership safely with std::move
-* Algorithmic Patterns: Two Pointers technique for O(n) time complexity optimizations.
+* Algorithmic Patterns: Two Pointers & Binary Search techniques for O(n) time complexity optimizations.
 * Multitasking: Concurrency and Parallelism
+* Functional: Functional paradigm programming concepts
 
 ---
 ## What's Inside
