@@ -8,7 +8,7 @@ A personal repository dedicated to learning and experimenting with modern C++ co
 
 * Memory Ownership: Raw pointers, References and Smart Pointers
 * Move Semantics: Transferring ownership safely with std::move
-* Algorithmic Patterns: Two Pointers & Binary Search techniques for O(n) time complexity optimizations.
+* Algorithmic Patterns: Popular algorithmic techniques for time complexity optimizations.
 * Multitasking: Concurrency and Parallelism
 * Functional: Functional paradigm programming concepts
 
@@ -25,7 +25,8 @@ cpp-deepdive/
 ├── src/
 │   ├── algorithms/     # Time & Space Optimized Algorithms
 │   │   ├── 01_two_pointers.cpp
-│   │   └── 02_binary_search.cpp
+│   │   ├── 02_binary_search.cpp
+│   │   └── 03_sliding_window.cpp
 │   │
 │   ├── functional/     # Functional Concepts
 │   │   └── 01_templates.cpp
@@ -56,7 +57,7 @@ This "project" uses CMake as its build system. To compile any of th executables,
 cmake -S . -B build
 
 #. 2. Compile the project
-cmake --build buld
+cmake --build build
 
 # 3. Run a specific executable (Example)
 ./build/unique_ptr

@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Algorithms
 add_executable(two_pointers src/algorithms/01_two_pointers.cpp)
 add_executable(binary_search src/algorithms/02_binary_search.cpp)
+add_executable(sliding_window src/algorithms/03_sliding_window.cpp)
 
 # Functional
 add_executable(templates src/functional/01_templates.cpp)
