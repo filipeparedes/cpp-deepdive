@@ -26,10 +26,12 @@ cpp-deepdive/
 │   ├── algorithms/     # Time & Space Optimized Algorithms
 │   │   ├── 01_two_pointers.cpp
 │   │   ├── 02_binary_search.cpp
-│   │   └── 03_sliding_window.cpp
+│   │   ├── 03_sliding_window.cpp
+│   │   └── (...)
 │   │
 │   ├── functional/     # Functional Concepts
-│   │   └── 01_templates.cpp
+│   │   ├── 01_templates.cpp
+│   │   └── 02_concepts.cpp
 │   │
 │   ├── memory/         # Memory Management
 │   │   ├── 01_raw_pointers.cpp

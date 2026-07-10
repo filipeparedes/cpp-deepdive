@@ -16,6 +16,7 @@ add_executable(sliding_window src/algorithms/03_sliding_window.cpp)
 
 # Functional
 add_executable(templates src/functional/01_templates.cpp)
+add_executable(concepts src/functional/02_concepts.cpp)
 
 # Memory related
 add_executable(raw_pointers src/memory/01_raw_pointers.cpp)
