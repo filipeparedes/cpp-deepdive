@@ -32,5 +32,8 @@ add_executable(mutex src/multitasking/03_mutex.cpp)
 add_executable(atomic src/multitasking/04_atomic.cpp)
 add_executable(parallelism src/multitasking/05_parallelism.cpp)
 
+# Systems
+add_executable(bitwise src/systems/01_bitwise.cpp)
+
 find_package(TBB REQUIRED)
 target_link_libraries(parallelism PRIVATE TBB::tbb)

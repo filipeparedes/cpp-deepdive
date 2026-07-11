@@ -11,6 +11,7 @@ A personal repository dedicated to learning and experimenting with modern C++ co
 * Algorithmic Patterns: Popular algorithmic techniques for time complexity optimizations.
 * Multitasking: Concurrency and Parallelism
 * Functional: Functional paradigm programming concepts
+* Systems: Systems programming related techniques and features
 
 ---
 ## What's Inside
@@ -45,6 +46,9 @@ cpp-deepdive/
 │   │   ├── 02_threads.cpp
 │   │   ├── 03_mutex.cpp
 │   │   └── (...)
+│   │
+│   ├── systems/     # Systems programming
+│   │   └── 01_bitwise.cpp
 
 ````
 
